@@ -31,13 +31,13 @@ email: 'zbxhhzj@qq.com'
 
 # 自有部署邮件通知系统
 mailConfig:
-  host: smtp.mxhichina.com
+  host: smtp.qq.com
   port: 465
   secure: true
   auth:
-    user: ''
-    pass: ''
-  title: 网站收录通知
+    user: 'zbxhhzj@qq.com'
+    pass: 'ccrrtaipftorbfjh'
+  title: CooRee导航收录通知
   message: 有用户提交网站收录啦
 
 # 默认主仓库，当仓库作为私密，上传的图片是无法访问的，需要转移到公开仓库
